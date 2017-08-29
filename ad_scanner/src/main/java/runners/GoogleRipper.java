@@ -18,29 +18,33 @@ public class GoogleRipper {
 		 Scanner s = new Scanner(url.openStream());
 		 
 		 List<String> q1 = new ArrayList<String>();
-		 List<String> q2 = new ArrayList<String>();
+//		 List<String> q2 = new ArrayList<String>();
 		 
 		 for(int i=0; s.hasNext(); i++) {
-			 if(i % 2 == 0)
-				 q1.add(s.nextLine());
-			 else
-				 q2.add(s.nextLine());
+			 q1.add(s.nextLine());
+//			 if(i % 2 == 0)
+//				 q1.add(s.nextLine());
+//			 else
+//				 q2.add(s.nextLine());
 		 }
 		 
 		 s.close();
 		 
-		 LinkedBlockingQueue<String> lbq = new LinkedBlockingQueue<String>();
+		 
+		 int size = 3;
+		 
+		 LinkedBlockingQueue<String> lbq = new LinkedBlockingQueue<String>(size);
 		 List<Thread> threads = new ArrayList<Thread>();
 		 
 		 Reader r1 = new Reader(q1, lbq);
 		 threads.add(r1);
 		 
 		 
-		 Reader r2 = new Reader(q2, lbq);
-		 threads.add(r2);
+//		 Reader r2 = new Reader(q2, lbq);
+//		 threads.add(r2);
 		 
 		 
-		 for(int i=0; i<10; i++)
+		 for(int i=0; i<size; i++)
 			 threads.add(new Clicker(lbq));
 			 
 		 for(Thread t: threads)

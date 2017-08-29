@@ -1,200 +1,176 @@
-1503974385312	geckodriver	INFO	1503974385312	geckodriver	INFO	geckodriver 0.18.0
-geckodriver 0.18.0
-1503974385324	geckodriver	INFO	Listening on 127.0.0.1:21118
-1503974385325	geckodriver	INFO	Listening on 127.0.0.1:33231
-1503974386117	geckodriver::marionette	INFO	Starting browser C:\Progra1m Files\Mozilla F5irefox\firefox.exe with0 args ["-marionette"]
-3974386118	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1503974386499	addons.xpi	WARN	Error parsing extensions state: [Exc1503974386499	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NeOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://greption... "Component returned/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < s failure codetartup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resou: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagrce://gre/modules/AerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < d_donManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modstartProvider()@resource://gre/modules/AddonManager.jsm:741 < startupules/AddonManager.js()@resource://grem:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1503974387234	Marionette	INFO	Enabled via --marionette
-1503974387236	Marionette	INFO	Enabled via --marionette
-1503974389917	Marionette	INFO	Listening on port 57971
-1503974389955	Marionette	INFO	Listening on port 57971
-1503974389998	Marionette	INFO	Listening on port 57972
-1503974390036	Marionette	INFO	Listening on port 57972
-1503974390300	Marionette	DEBUG	loaded listener.js
-1503974390320	Marionette	DEBUG	loaded listener.js
-Aug 28, 2017 9:39:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1504043361564	geckodriver	INFO	geckodriver 0.18.0
+1504043361583	geckodriver	INFO	Listening on 127.0.0.1:6662
+1504043362256	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504043364929	Marionette	INFO	Listening on port 58691
+Aug 29, 2017 4:49:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 28, 2017 9:39:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1503974390437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1503974390437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1503974390835	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1503974390835	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1503974390927	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1503974390927	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1503974391155	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974391471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974391732	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
-1503974391789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974391805	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974392033	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974392430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
-1503974392490	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974392508	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974392656	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974393825	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=accident+attorney+denver&oq=accident+attorney+denver&gs_l=psy-ab.3...908.1035.0.1065.24.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.9mQ8qEU7hAw"
-1503974394122	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=accident+attorney+denver&oq=accident+attorney+denver&gs_l=psy-ab.3...908.1035.0.1065.24.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.9mQ8qEU7hAw"
-1503974394124	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=accident+attorney+denver&oq=accident+attorney+denver&gs_l=psy-ab.3...908.1035.0.1065.24.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.9mQ8qEU7hAw"
-1503974394269	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974394767	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
-1503974394781	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974394784	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974394830	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974396020	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=outbound+call+center+software&oq=outbound+call+center+software&gs_l=psy-ab.3...1209.1465.0.1503.29.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.rkJUyflePQE"
-1503974396513	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=outbound+call+center+software&oq=outbound+call+center+software&gs_l=psy-ab.3...1209.1465.0.1503.29.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.rkJUyflePQE"
-1503974396515	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=outbound+call+center+software&oq=outbound+call+center+software&gs_l=psy-ab.3...1209.1465.0.1503.29.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.rkJUyflePQE"
-1503974396829	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
-1503974396845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974397146	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=austin+criminal+lawyer&oq=austin+criminal+lawyer&gs_l=psy-ab.3...374.440.0.480.22.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..22.0.0.3osMTBsYZdU"
-1503974397371	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
-1503974397377	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=austin+criminal+lawyer&oq=austin+criminal+lawyer&gs_l=psy-ab.3...374.440.0.480.22.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..22.0.0.3osMTBsYZdU"
-1503974397378	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=austin+criminal+lawyer&oq=austin+criminal+lawyer&gs_l=psy-ab.3...374.440.0.480.22.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..22.0.0.3osMTBsYZdU"
-1503974397383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974397385	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974397464	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974397519	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974397855	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
-1503974398008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974398013	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974398112	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974399346	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...303.388.0.418.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.A5m02VpObJs"
-1503974399385	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...303.388.0.418.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.A5m02VpObJs"
-1503974399417	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
-1503974399419	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...303.388.0.418.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.A5m02VpObJs"
-1503974399501	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...303.388.0.418.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.A5m02VpObJs"
-1503974399503	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...303.388.0.418.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.A5m02VpObJs"
-1503974399618	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
-1503974399662	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974399987	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
-1503974399996	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974400002	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974400056	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974402135	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=master+degree+in+international+business&oq=master+degree+in+international+business&gs_l=psy-ab.3...357.456.0.482.39.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..39.0.0._sIaeOTlbfY"
-1503974402348	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=master+degree+in+international+business&oq=master+degree+in+international+business&gs_l=psy-ab.3...357.456.0.482.39.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..39.0.0._sIaeOTlbfY"
-1503974402349	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=master+degree+in+international+business&oq=master+degree+in+international+business&gs_l=psy-ab.3...357.456.0.482.39.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..39.0.0._sIaeOTlbfY"
-1503974402442	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
-1503974402457	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974402756	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
-1503974402763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974402767	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974402823	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974403401	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=phoenix+personal+injury+lawyers&oq=phoenix+personal+injury+lawyers&gs_l=psy-ab.3...593.675.0.701.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.pzvlbE1P7QY"
-1503974403540	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=phoenix+personal+injury+lawyers&oq=phoenix+personal+injury+lawyers&gs_l=psy-ab.3...593.675.0.701.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.pzvlbE1P7QY"
-1503974403542	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=phoenix+personal+injury+lawyers&oq=phoenix+personal+injury+lawyers&gs_l=psy-ab.3...593.675.0.701.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.pzvlbE1P7QY"
-1503974403632	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
-1503974403644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974403947	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
-1503974403954	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974403963	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974404165	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974404370	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=truck+accident+attorney+california&oq=truck+accident+attorney+california&gs_l=psy-ab.3...345.434.0.462.34.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..34.0.0.gKlA9Qk_OEA"
-1503974404496	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=truck+accident+attorney+california&oq=truck+accident+attorney+california&gs_l=psy-ab.3...345.434.0.462.34.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..34.0.0.gKlA9Qk_OEA"
-1503974404496	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=truck+accident+attorney+california&oq=truck+accident+attorney+california&gs_l=psy-ab.3...345.434.0.462.34.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..34.0.0.gKlA9Qk_OEA"
-1503974404615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974404821	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974406648	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=secure+virtual+data+room&oq=secure+virtual+data+room&gs_l=psy-ab.3...217.303.0.329.24.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.m9-yGszTGXM"
-1503974406774	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=secure+virtual+data+room&oq=secure+virtual+data+room&gs_l=psy-ab.3...217.303.0.329.24.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.m9-yGszTGXM"
-1503974406775	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=secure+virtual+data+room&oq=secure+virtual+data+room&gs_l=psy-ab.3...217.303.0.329.24.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..24.0.0.m9-yGszTGXM"
-1503974406853	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
-1503974406879	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974407163	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
-1503974407168	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974407174	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974407262	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974408475	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=pi-bond&oq=pi-bond&gs_l=psy-ab.3...374.395.0.408.7.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..7.0.0.Uzq-pPaY_8M"
-1503974408716	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=pi-bond&oq=pi-bond&gs_l=psy-ab.3...374.395.0.408.7.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..7.0.0.Uzq-pPaY_8M"
-1503974408743	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
-1503974408745	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=pi-bond&oq=pi-bond&gs_l=psy-ab.3...374.395.0.408.7.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..7.0.0.Uzq-pPaY_8M"
-1503974408890	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=pi-bond&oq=pi-bond&gs_l=psy-ab.3...374.395.0.408.7.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..7.0.0.Uzq-pPaY_8M"
-1503974408891	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=pi-bond&oq=pi-bond&gs_l=psy-ab.3...374.395.0.408.7.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..7.0.0.Uzq-pPaY_8M"
-1503974409000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
-1503974409015	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974409316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
-1503974409335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974409342	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974409400	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974409469	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=acronis+management+server&oq=acronis+management+server&gs_l=psy-ab.3...527.589.0.617.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.FrYfasqzgJM"
-1503974409602	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=acronis+management+server&oq=acronis+management+server&gs_l=psy-ab.3...527.589.0.617.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.FrYfasqzgJM"
-1503974409604	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=acronis+management+server&oq=acronis+management+server&gs_l=psy-ab.3...527.589.0.617.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.FrYfasqzgJM"
-1503974409702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
-1503974409727	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974410024	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
-1503974410034	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974410039	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974410126	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974411260	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=cloud+backup+solutions+for+small+business&oq=cloud+backup+solutions+for+small+business&gs_l=psy-ab.3...350.453.0.480.41.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..41.0.0.Z4htGX0R3tA"
-1503974411272	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
-1503974411404	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=cloud+backup+solutions+for+small+business&oq=cloud+backup+solutions+for+small+business&gs_l=psy-ab.3...350.453.0.480.41.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..41.0.0.Z4htGX0R3tA"
-1503974411406	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=cloud+backup+solutions+for+small+business&oq=cloud+backup+solutions+for+small+business&gs_l=psy-ab.3...350.453.0.480.41.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..41.0.0.Z4htGX0R3tA"
-1503974411509	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
-1503974411524	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974411832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483722"
-1503974411835	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974411843	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974411916	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974413690	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=court+reporter+washington+dc&oq=court+reporter+washington+dc&gs_l=psy-ab.3...348.426.0.456.28.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..28.0.0.c48o3WR_wBM"
-1503974413707	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483727"
-1503974413832	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=court+reporter+washington+dc&oq=court+reporter+washington+dc&gs_l=psy-ab.3...348.426.0.456.28.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..28.0.0.c48o3WR_wBM"
-1503974413834	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=court+reporter+washington+dc&oq=court+reporter+washington+dc&gs_l=psy-ab.3...348.426.0.456.28.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..28.0.0.c48o3WR_wBM"
-1503974413943	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
-1503974413957	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974414246	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
-1503974414249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974414254	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974414314	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974415472	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=personal+injury+attorneys+nyc&oq=personal+injury+attorneys+nyc&gs_l=psy-ab.3...456.549.0.568.29.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.7W3ySZ3aRXQ"
-1503974415591	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=personal+injury+attorneys+nyc&oq=personal+injury+attorneys+nyc&gs_l=psy-ab.3...456.549.0.568.29.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.7W3ySZ3aRXQ"
-1503974415593	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=personal+injury+attorneys+nyc&oq=personal+injury+attorneys+nyc&gs_l=psy-ab.3...456.549.0.568.29.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..29.0.0.7W3ySZ3aRXQ"
-1503974415696	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
-1503974415712	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974416012	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
-1503974416015	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+ma1503974416017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-nagement+software&gs_l=psy-ab.3...307.387.0.409.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.UTnymXDwu7k"
-1503974416025	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974416163	Marionette	D1503974416EBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...307.387.0.409.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.UTnymXDwu7k"
-1503974416164	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=call+center+management+software&oq=call+center+management+software&gs_l=psy-ab.3...307.387.0.409.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.UTnymXDwu7k"
-125	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974416283	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483739"
-1503974416304	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974416613	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483742"
-1503974416633	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974416635	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974416696	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974419056	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=toronto+personal+injury+attorney&oq=toronto+personal+injury+attorney&gs_l=psy-ab.3...320.409.0.436.32.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..32.0.0.wpa3oWi10Eg"
-1503974419196	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=toronto+personal+injury+attorney&oq=toronto+personal+injury+attorney&gs_l=psy-ab.3...320.409.0.436.32.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..32.0.0.wpa3oWi10Eg"
-1503974419198	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=toronto+personal+injury+attorney&oq=toronto+personal+injury+attorney&gs_l=psy-ab.3...320.409.0.436.32.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..32.0.0.wpa3oWi10Eg"
-1503974419309	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483749"
-1503974419323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974419606	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483752"
-1503974419612	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974419616	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974419667	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974421528	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=business+phone+service+in+my+area&oq=business+phone+service+in+my+area&gs_l=psy-ab.3...466.578.0.612.33.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..33.0.0.qRn2-e8ZHf0"
-1503974421641	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=business+phone+service+in+my+area&oq=business+phone+service+in+my+area&gs_l=psy-ab.3...466.578.0.612.33.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..33.0.0.qRn2-e8ZHf0"
-1503974421643	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=business+phone+service+in+my+area&oq=business+phone+service+in+my+area&gs_l=psy-ab.3...466.578.0.612.33.2.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..33.0.0.qRn2-e8ZHf0"
-1503974421761	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483705"
-1503974421776	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974421885	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=how+to+cash+in+an+annuity&oq=how+to+cash+in+an+annuity&gs_l=psy-ab.3...301.377.0.398.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.OowinrufOxs"
-1503974422022	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=how+to+cash+in+an+annuity&oq=how+to+cash+in+an+annuity&gs_l=psy-ab.3...301.377.0.398.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.OowinrufOxs"
-1503974422023	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=how+to+cash+in+an+annuity&oq=how+to+cash+in+an+annuity&gs_l=psy-ab.3...301.377.0.398.25.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..25.0.0.OowinrufOxs"
-1503974422099	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483708"
-1503974422111	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974422116	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974422174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483759"
-1503974422177	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974422192	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974422555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483762"
-1503974422562	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974422566	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974422624	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974424768	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com/search?source=hp&q=auto+accident+lawyer+houston+tx&oq=auto+accident+lawyer+houston+tx&gs_l=psy-ab.3...333.420.0.442.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.i9jpzOPDOvA"
-1503974424899	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com/search?source=hp&q=auto+accident+lawyer+houston+tx&oq=auto+accident+lawyer+houston+tx&gs_l=psy-ab.3...333.420.0.442.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.i9jpzOPDOvA"
-1503974424901	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com/search?source=hp&q=auto+accident+lawyer+houston+tx&oq=auto+accident+lawyer+houston+tx&gs_l=psy-ab.3...333.420.0.442.31.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..31.0.0.i9jpzOPDOvA"
-1503974424993	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483769"
-1503974425005	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974425290	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483772"
-1503974425295	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/"
-1503974425300	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
-1503974425369	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/"
+Aug 29, 2017 4:50:51 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "textfield", creating a text input
+Aug 29, 2017 4:51:08 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [aarpcookie="", version:0, domain:/, path:/, expiry:null] Illegal 'domain' attribute "/". Domain of origin: "www.thehartford.com"
+Aug 29, 2017 4:51:19 PM com.gargoylesoftware.htmlunit.html.BaseFrameElement loadInnerPageIfPossible
+SEVERE: IOException when getting content for iframe: url=[http://bid-tag.com/Ads/6-2-259]
+java.net.UnknownHostException: bid-tag.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:194)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1372)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1291)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:390)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPageIfPossible(BaseFrameElement.java:185)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPage(BaseFrameElement.java:123)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadFrames(HtmlPage.java:1855)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.initialize(HtmlPage.java:240)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:527)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:394)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:670)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$8(HtmlUnitDriver.java:657)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$0(HtmlUnitDriver.java:414)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 29, 2017 4:51:30 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [language="en", version:0, domain:.statefarm.com, path:/, expiry:null] Illegal 'domain' attribute ".statefarm.com". Domain of origin: "www.jillhenning.net"
+Aug 29, 2017 4:51:30 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [locale="en_US", version:0, domain:.statefarm.com, path:/, expiry:null] Illegal 'domain' attribute ".statefarm.com". Domain of origin: "www.jillhenning.net"
+Aug 29, 2017 4:51:30 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [sftlf="1f047cd8eb38341f2a428f90a0de310d", version:0, domain:.statefarm.com, path:/, expiry:null] Illegal 'domain' attribute ".statefarm.com". Domain of origin: "www.jillhenning.net"
+Aug 29, 2017 4:51:30 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [TS012914dc="0198c3a4acb5632cddaa2bf926c6dd739b62cd2bae8cd6ea2c1ebdd68c400c041d0519653bfe913a1b07211eaf2a37129ae8...", version:0, domain:.statefarm.com, path:/, expiry:null] Illegal 'domain' attribute ".statefarm.com". Domain of origin: "www.jillhenning.net"
+Aug 29, 2017 4:51:53 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.ralphtorreslawyer.com:80: The target server failed to respond
+Aug 29, 2017 4:51:53 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://www.ralphtorreslawyer.com:80
+Aug 29, 2017 4:51:57 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.attorneydeltoledo.net:80: The target server failed to respond
+Aug 29, 2017 4:51:57 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://www.attorneydeltoledo.net:80
+Aug 29, 2017 4:52:12 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "textfield", creating a text input
+Aug 29, 2017 4:53:15 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "textfield", creating a text input
+Aug 29, 2017 4:53:47 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "textfield", creating a text input
+Aug 29, 2017 4:54:05 PM com.gargoylesoftware.htmlunit.html.BaseFrameElement loadInnerPageIfPossible
+SEVERE: IOException when getting content for iframe: url=[http://pixel.fetchback.com/serve/fb/pdc?cat=&name=landing&sid=2462]
+java.net.UnknownHostException: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server (pixel.fetchback.com)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:194)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1372)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1291)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:390)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPageIfPossible(BaseFrameElement.java:185)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPage(BaseFrameElement.java:123)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadFrames(HtmlPage.java:1855)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.initialize(HtmlPage.java:240)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:527)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:394)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:670)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$8(HtmlUnitDriver.java:657)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$0(HtmlUnitDriver.java:414)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 29, 2017 4:54:21 PM com.gargoylesoftware.htmlunit.html.BaseFrameElement loadInnerPageIfPossible
+SEVERE: IOException when getting content for iframe: url=[http://pixel.fetchback.com/serve/fb/pdc?cat=&name=landing&sid=2462]
+java.net.UnknownHostException: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server (pixel.fetchback.com)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:194)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1372)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1291)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:390)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPageIfPossible(BaseFrameElement.java:185)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPage(BaseFrameElement.java:123)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadFrames(HtmlPage.java:1855)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.initialize(HtmlPage.java:240)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:527)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:394)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:670)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$8(HtmlUnitDriver.java:657)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$0(HtmlUnitDriver.java:414)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 29, 2017 4:54:56 PM com.gargoylesoftware.htmlunit.html.BaseFrameElement loadInnerPageIfPossible
+SEVERE: IOException when getting content for iframe: url=[http://pixel.fetchback.com/serve/fb/pdc?cat=&name=landing&sid=2462]
+java.net.UnknownHostException: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server (pixel.fetchback.com)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:194)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1372)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1291)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:390)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPageIfPossible(BaseFrameElement.java:185)
+	at com.gargoylesoftware.htmlunit.html.BaseFrameElement.loadInnerPage(BaseFrameElement.java:123)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadFrames(HtmlPage.java:1855)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.initialize(HtmlPage.java:240)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:527)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:394)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:311)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:670)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$8(HtmlUnitDriver.java:657)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.lambda$0(HtmlUnitDriver.java:414)
+	at java.lang.Thread.run(Unknown Source)
+

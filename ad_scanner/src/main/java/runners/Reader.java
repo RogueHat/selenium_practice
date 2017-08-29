@@ -32,7 +32,12 @@ public class Reader extends Thread {
 			ResultPage rp = p.sendQuery(queries.get(idx));
 			List<String> urls = rp.getAdUrls();
 			for (String url : urls)
-				adUrls.add(url);
+				try {
+					adUrls.put(url);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			System.out.println(adUrls.size());
 		}
 	}

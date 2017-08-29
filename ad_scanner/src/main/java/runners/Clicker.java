@@ -20,10 +20,11 @@ public class Clicker extends Thread {
 			try {
 				String url = adUrls.take();
 				dr.navigate().to(url);
-				dr.navigate().back();
 				System.out.println("Clicked:\t"+url);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
+				dr.close();
+				dr = DriverFactory.getNonBlockingDriver();
 			}
 		}
 	}

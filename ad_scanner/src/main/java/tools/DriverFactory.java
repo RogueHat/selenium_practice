@@ -17,6 +17,9 @@ public class DriverFactory {
 	}
 	
 	public static WebDriver getNonBlockingDriver() {
+//		System.setProperty("webdriver.gecko.driver","src/main/resources/drivers/geckodriver.exe");		
+//		WebDriver dr = new FirefoxDriver();
+		
 		WebDriver dr = new HtmlUnitDriver();
 		dr.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
 		return dr;
